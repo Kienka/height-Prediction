@@ -4,7 +4,7 @@ Height Prediction
 GitHub Documents
 ----------------
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
 
 Handsize Dataset, which is to be used to see if we can predict the height Dataset was gotten from this site <http://serc.carleton.edu/sp/cause/cooperative/examples/18172.html> From web findings the dataset belongs to Prof. Carl Lee and Prof. Felix Famoye. Just trying to be on the safe side.. hahahaha
 
@@ -66,7 +66,7 @@ color= c('pink','blue')
 barplot(gender, col=color, ylim=c(0,40),xpd=FALSE)
 ```
 
-![](HandMk_files/figure-markdown_github/unnamed-chunk-4-1.png)<!-- --> Viewing Histogram of the Hand length
+![](HandMk_files/figure-markdown_github/unnamed-chunk-4-1.png)Viewing Histogram of the Hand length
 
 ``` r
 handlength= new_data$hand_length
@@ -79,7 +79,7 @@ range(handlength)
 hist(handlength, col='#dd5522')
 ```
 
-![](HandMk_files/figure-markdown_github/unnamed-chunk-5-1.png)<!-- --> Viewing Histogram of the Hand Width
+![](HandMk_files/figure-markdown_github/unnamed-chunk-5-1.png) Viewing Histogram of the Hand Width
 
 ``` r
 handwidth= new_data$hand_width
@@ -92,9 +92,10 @@ range(handwidth)
 hist(handwidth, col='#dd1122')
 ```
 
-![](HandMk_files/figure-markdown_github/unnamed-chunk-6-1.png)<!-- -->
+![](HandMk_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Including Plots
 ---------------
 
 You can also embed plots, for example:
+To be continued , outliers to be removed and regression model soon to be built and shown
